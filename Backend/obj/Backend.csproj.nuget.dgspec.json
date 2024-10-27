@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\Backend.csproj": {}
+    "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\Backend.csproj": {
+    "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\mosta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mosta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
