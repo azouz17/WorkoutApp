@@ -157,3 +157,11 @@ C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\
 C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\obj\Debug\net8.0\Backend.csproj.AssemblyReference.cache
 C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\obj\Debug\net8.0\Backend.csproj.Up2Date
+C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mosta\Desktop\Desktop\Mostafa Azouz\Summer Projects\WorkoutApp\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
