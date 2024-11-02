@@ -1,6 +1,7 @@
 using System;
 using Backend.Dtos;
 using Backend.Entities;
+using Backend.Helpers;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,17 +13,19 @@ public static class UserEndpoints
     public static RouteGroupBuilder MapUserEndpoints (this WebApplication app){
         var group = app.MapGroup("user");
 
-        group.MapPost("/login", async (LoginDto loginDto, SignInManager<User> signInManager) =>
+        group.MapGet("",  (ApplicationDBContext dbContext) =>
             {
-                var result = await signInManager.PasswordSignInAsync(loginDto.Email, loginDto.Password, isPersistent: false, lockoutOnFailure: false);
-
-                if (result.Succeeded)
-                {
-                    return Results.Ok(new { message = "Login successful" });
-                }
-
-                return Results.Unauthorized();
+                 var users = dbContext.Users.Select(user => user.ToDto()).ToList();
+                 return users;
             });
+
+        group.MapDelete("Delete/{id}", async(string id , ApplicationDBContext dbContext) =>{
+
+                await dbContext.Users.Where(user => user.Id == id).ExecuteDeleteAsync();
+                await dbContext.SaveChangesAsync();
+                return Results.NoContent();
+        });
+
         return group;
     }
 

@@ -2,6 +2,33 @@ POST http://localhost:5178/register
 Content-Type: application/json
 
 {
-    "Email": "mostafa.azouz@gmail.com",
-    "Password": "Ayhaga1!"
+    "Email": "mostafa.azouz.salama@gmail.com",
+    "Password": "Ayhaga2!"
 }
+
+
+###
+
+POST http://localhost:5178/forgotPassword
+Content-Type: application/json
+
+{
+    "Email": "mostafa.azouz@gmail.com"
+}
+###
+
+POST http://localhost:5178/confirmEmail
+Content-Type: application/json
+
+{
+    "Email": "mostafa.azouz@gmail.com"
+}
+
+###
+GET http://localhost:5178/user
+
+
+###
+
+Delete http://localhost:5178/user/Delete/bdea1303-8d8a-4d83-8986-ca01151e0734
+
