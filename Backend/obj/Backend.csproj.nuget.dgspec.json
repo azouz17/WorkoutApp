@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\FitFlex\\WorkoutApp\\Backend\\Backend.csproj": {}
+    "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\FitFlex\\WorkoutApp\\Backend\\Backend.csproj": {
+    "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\FitFlex\\WorkoutApp\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\FitFlex\\WorkoutApp\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\mosta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\FitFlex\\WorkoutApp\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mosta\\AppData\\Roaming\\NuGet\\NuGet.Config"

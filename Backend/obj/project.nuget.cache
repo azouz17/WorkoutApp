@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E1lCw0YTTtE=",
+  "dgSpecHash": "P6tn0FC4ViM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\FitFlex\\WorkoutApp\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\mosta\\Desktop\\Desktop\\Mostafa Azouz\\Summer Projects\\WorkoutApp\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mosta\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mosta\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.10\\microsoft.aspnetcore.authentication.jwtbearer.8.0.10.nupkg.sha512",
