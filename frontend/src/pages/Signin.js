@@ -48,7 +48,7 @@ function setCookie(name, value, seconds) {
       setCookie("accessToken", data.accessToken, 3600); // Expires in 1 day
       setCookie("refreshToken", data.refreshToken, 7); // Expires in 7 days
   
-      console.log("Login successful:", data);
+      console.log("Login successful::", data);
       setInvaledCredentials(false)
   }
       
