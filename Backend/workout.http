@@ -2,8 +2,8 @@ POST http://localhost:5178/register
 Content-Type: application/json
 
 {
-    "Email": "mostafa.azouz.salama@gmail.com",
-    "Password": "Ayhaga2!"
+    "Email": "mostafa.azouz@gmail.com",
+    "Password": "Squash17_!"
 }
 
 
@@ -30,5 +30,5 @@ GET http://localhost:5178/user
 
 ###
 
-Delete http://localhost:5178/user/Delete/bdea1303-8d8a-4d83-8986-ca01151e0734
+Delete http://localhost:5178/user/Delete/89814fe8-d72e-42eb-a616-29b1a4937114
 

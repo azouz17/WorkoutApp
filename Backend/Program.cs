@@ -1,3 +1,4 @@
+using Backend.Endpoints;
 using Backend.Entities;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.BearerToken;
@@ -5,6 +6,17 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy  =>
+                      {
+                          policy.WithOrigins("http://localhost:3000").AllowAnyHeader()
+                                                  .AllowAnyMethod();;
+                      });
+});
 
 // Configure authentication to use Identity.Bearer explicitly
 builder.Services.AddAuthentication(options =>
@@ -33,5 +45,7 @@ app.UseAuthorization();  // Adds authorization middleware
 
 // Map default Identity API endpoints
 app.MapIdentityApi<User>();
+app.MapUserEndpoints();
+app.UseCors(MyAllowSpecificOrigins);
 
 app.Run();
