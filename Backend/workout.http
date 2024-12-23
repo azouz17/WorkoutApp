@@ -30,5 +30,5 @@ GET http://localhost:5178/user
 
 ###
 
-Delete http://localhost:5178/user/Delete/89814fe8-d72e-42eb-a616-29b1a4937114
+Delete http://localhost:5178/user/Delete/9515ff02-1ed2-4c61-b3be-1b7b78ea6ffc
 

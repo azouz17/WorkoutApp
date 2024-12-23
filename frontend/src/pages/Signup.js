@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import React , {useState} from 'react'
 
 const Signup = () =>{
+const navigate = useNavigate(); 
 const [username, setUsername] = useState("")
 const [password, setPassword] = useState("")
 const [InvaledCredentials, setInvaledCredentials] = useState(false)
@@ -21,6 +22,7 @@ function setCookie(name, value, seconds) {
   }
   
   async function SignUpUser(e) {
+    setInvaledCredentials(false)
     e.preventDefault();
     try {
       const response = await fetch("http://localhost:5178/register", {
@@ -74,6 +76,7 @@ function setCookie(name, value, seconds) {
     
         console.log("Login successful::", data);
         setInvaledCredentials(false)
+        navigate('/Home')
     }
         
       } catch (error) {
@@ -92,15 +95,15 @@ return(
         <div className="flex flex-col justify-center items-center">
             <h1 className="font-bold text-6xl text-[#00B295]">Fit Flex</h1>
             <p className="mt-12 font-semibold text-2xl ">Sign Up</p>
-        <form  onSubmit={SignUpUser}>
-            <div className="mt-6 flex flex-col font-semibold">
+        <form class="w-full flex flex-col items-center" onSubmit={SignUpUser}>
+            <div className="w-full mt-6 flex flex-col font-semibold">
             {InvaledCredentials == true && <p className="text-red-500 font-semibold text-center"> {Object.entries(errors).map(([key, message]) => (<li key={key}>{message.join('')}</li>))} </p>}
                 <label className="mt-2">Username:</label>
                 <input required onChange={handleUsernameChange} type="email" name="username" className="text-black p-1 rounded-lg border border-gray mt-2"/>
                 <label className="mt-2">Password:</label>
                 <input required onChange={handlePasswordChange} type="password" name="password" className="text-black p-1 rounded-lg border border-gray mt-2"/>
             </div>
-            <button type="submit" className="p-2 bg-black border border-solid border-[#00B295] text-[#00B295] mt-6 font-semibold rounded-lg mx-auto">Sign Up</button>
+            <button type="submit" className="p-2 bg-black border border-solid border-[#00B295] text-[#00B295] mt-6 font-semibold rounded-lg mx-auto hover:opacity-70">Sign Up</button>
         </form>
         </div>
     </div>
